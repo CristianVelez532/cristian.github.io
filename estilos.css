@@ -1,0 +1,107 @@
+body {
+    cursor: url("luigi.png"), auto;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 350px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #2c3e50;
+    background-color: #ecf0f1;
+    padding: 10px;
+    border-radius: 4px;
+    margin: 0;
+    flex-grow: 1;
+    font-size: 1.2em;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2980b9;
+}
+
+.error {
+    color: #e74c3c;
+    font-size: 0.8em;
+    margin-top: 5px;
+    display: none;
+}
+
+.popup-error {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FFF0F0;
+    border: 2px solid #FF0000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    z-index: 1000;
+    display: none;
+    width: 280px;
+    text-align: center;
+}
+
+.additional-links {
+    margin-top: 15px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+.additional-links a {
+    color: #3498db;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.additional-links a:hover {
+    text-decoration: underline;
+}

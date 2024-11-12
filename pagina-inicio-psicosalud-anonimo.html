@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PsicoSalud - Bienestar Mental y Emocional</title>
+    <link rel="stylesheet" href="estilo-pagina-inicio.css">
+    <style>
+        .carousel {
+            position: relative;
+            width: 100%;
+            max-width: 1280px;
+            max-height: 750px;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        .carousel-inner {
+            display: flex;
+            transition: transform 0.5s ease;
+        }
+        .carousel-item {
+            flex: 0 0 100%;
+        }
+        .carousel-item img {
+            width: 100%;
+            height: auto;
+        }
+        .carousel-control {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: rgba(0,0,0,0.5);
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+        }
+        .carousel-control.prev { left: 10px; }
+        .carousel-control.next { right: 10px; }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">
+            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/psicosalud-3H3B24NTBsWmYFyfhI5fk2GkTQSTZf.png" alt="PsicoSalud Logo" class="logo-image">
+        </a>
+        <nav>
+            <a href="inicio-de-sesion.html" class="nav-button">Iniciar Sesión</a>
+            <a href="registro.html" class="nav-button">Registrarme</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>Bienvenido a PsicoSalud</h1>
+                <div class="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <img src="d:\Downloads\imagen 1.jpg" alt="Imagen 1">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="d:\Downloads\imagen 2.jpg" alt="Imagen 2">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="d:\Downloads\imagen 3.jpg" alt="Imagen 3">
+                        </div>
+                    </div>
+                    <a href="#" class="carousel-control prev">&lt;</a>
+                    <a href="#" class="carousel-control next">&gt;</a>
+                </div>
+                <p>Descubre cómo nuestros servicios de psicología pueden ayudarte a mejorar tu bienestar mental y emocional.</p>
+            </div>
+        </section>
+        <section class="services">
+            <div class="container">
+                <h2>Nuestro Servicio</h2>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#34495e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6"></line>
+                            <line x1="8" y1="2" x2="8" y2="6"></line>
+                            <line x1="3" y1="10" x2="21" y2="10"></line>
+                        </svg>
+                    </div>
+                    <h3 class="service-title">Agenda Online</h3>
+                    <p>Programa tus citas de manera fácil y conveniente a través de nuestra plataforma en línea. 
+                    Gestiona tu tiempo de forma eficiente y accede a nuestros servicios de psicología cuando más lo necesites.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 PsicoSalud. Todos los derechos reservados.</p>
+        <nav>
+            <a href="#">Términos de Servicio</a>
+            <a href="#">Política de Privacidad</a>
+        </nav>
+    </footer>
+</body>
+</html>

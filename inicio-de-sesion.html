@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="estilo-inicio-sesion.css">
+</head>
+<body>
+    <div class="login-container">
+        <div class="header">
+            <img src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/psicosalud-3H3B24NTBsWmYFyfhI5fk2GkTQSTZf.png" alt="Psicosalud Logo" class="logo">
+            <h2>Inicio de Sesión</h2>
+        </div>
+        <form id="loginForm">
+            <div class="input-group">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+                <span class="error" id="nombreError"></span>
+            </div>
+            <div class="input-group">
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+                <span class="error" id="apellidoError"></span>
+            </div>
+            <div class="input-group">
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <span class="error" id="emailError"></span>
+            </div>
+            <div class="input-group">
+                <label for="password">Contraseña:</label>
+                <input type="password" id="password" name="password" required>
+                <span class="error" id="passwordError"></span>
+            </div>
+            <button type="submit">Iniciar Sesión</button>
+        </form>
+        <div class="signup-link">
+            ¿No tienes una cuenta? <a href="registro.html">Crear cuenta nueva</a>
+        </div>
+    </div>
+    <script src="inicio-sesion.js"></script>
+</body>
+</html>
